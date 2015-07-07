@@ -17,5 +17,6 @@ pydoc function_name: open the help docs about that function.
 Enter "q" to quit pydoc
 
 ##Ex 13
-Difference between raw_input() and argv?
-The difference 
+Difference between *raw_input()* and *argv*?
+The difference has to do with whether a user is required to give input. If they give your script inputs on the command line, then you use *argv*. 
+If you want them to input using the keyboard while the script is running, then use *raw_input()*.
